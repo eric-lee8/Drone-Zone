@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="West"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="East"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="SW"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="South"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="SE"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="NW"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="NE"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:text="North"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="134dp"
+        android:layout_height="102dp"
+        app:srcCompat="@drawable/Screen Shot 2019-06-11 at 12"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[0]" />
+
+</android.support.constraint.ConstraintLayout>
